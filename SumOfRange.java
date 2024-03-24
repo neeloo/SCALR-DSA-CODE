@@ -10,6 +10,7 @@ public class SumOfRange {
             for(int j=l;j<=r;j++){
                 sum+=arr[j];
             }
+            
             System.out.println(sum);
             return;
         }
