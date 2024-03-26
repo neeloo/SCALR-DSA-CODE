@@ -3,7 +3,6 @@ public class SumOfRange {
         
         int arr[]={3,6,2,4,5,2,8,-9,3,1};
         int sum=0; 
-        
         int l=6;
         int r=9;
         int k=5;
@@ -11,7 +10,6 @@ public class SumOfRange {
             for(int j=l;j<=r;j++){
                 sum+=arr[j];
             }
-            
             System.out.println(sum);
             return;
         }
